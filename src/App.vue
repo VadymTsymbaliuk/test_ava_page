@@ -47,26 +47,23 @@
       <section class="section-3">
         <div class="flex">
           <div>
-            <h3>
+            <h2>
               Experience design and intelligent marketing for growing brands
-            </h3>
+            </h2>
             <p>
               The first rule of any technology used in a business is that
               automation applied to an efficient operation will magnify the
               efficiency.
             </p>
-            <div>
-              <img src="" alt="#" />
-              <h3>Customer Support</h3>
-              <p>Make every detail perfect & limit the number of details.</p>
-              <button>Read more</button>
+            <div class="flex flex-row">
               <div>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-3/sec-3_img-1.svg" alt="#" />
                 <h3>Customer Support</h3>
                 <p>Make every detail perfect & limit the number of details.</p>
+                <button>Read more</button>
               </div>
               <div>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-3/sec-3_img-2.svg" alt="#" />
                 <h3>Email marketing</h3>
                 <p>Make every detail perfect & limit the number of details.</p>
               </div>
@@ -78,128 +75,13 @@
               Your work is going to fill a large part of your life, and the only
               way to be truly satisfied.
             </p>
-            <form class="w-full max-w-lg">
-              <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                  <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                    for="grid-first-name"
-                  >
-                    First Name
-                  </label>
-                  <input
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                    id="grid-first-name"
-                    type="text"
-                    placeholder="Jane"
-                  />
-                  <p class="text-red-500 text-xs italic">
-                    Please fill out this field.
-                  </p>
-                </div>
-                <div class="w-full md:w-1/2 px-3">
-                  <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                    for="grid-last-name"
-                  >
-                    Last Name
-                  </label>
-                  <input
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="grid-last-name"
-                    type="text"
-                    placeholder="Doe"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full px-3">
-                  <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                    for="grid-password"
-                  >
-                    Password
-                  </label>
-                  <input
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="grid-password"
-                    type="password"
-                    placeholder="******************"
-                  />
-                  <p class="text-gray-600 text-xs italic">
-                    Make it as long and as crazy as you'd like
-                  </p>
-                </div>
-              </div>
-              <div class="flex flex-wrap -mx-3 mb-2">
-                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                  <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                    for="grid-city"
-                  >
-                    City
-                  </label>
-                  <input
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="grid-city"
-                    type="text"
-                    placeholder="Albuquerque"
-                  />
-                </div>
-                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                  <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                    for="grid-state"
-                  >
-                    State
-                  </label>
-                  <div class="relative">
-                    <select
-                      class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                      id="grid-state"
-                    >
-                      <option>New Mexico</option>
-                      <option>Missouri</option>
-                      <option>Texas</option>
-                    </select>
-                    <div
-                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
-                    >
-                      <svg
-                        class="fill-current h-4 w-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-                  <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                    for="grid-zip"
-                  >
-                    Zip
-                  </label>
-                  <input
-                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="grid-zip"
-                    type="text"
-                    placeholder="90210"
-                  />
-                </div>
-              </div>
-            </form>
+            <v-form />
           </div>
         </div>
       </section>
       <section class="section-4">
         <div class="flex">
           <div>
-            adfasf
             <img src="" alt="" />
           </div>
           <div>
@@ -365,7 +247,7 @@
         </div>
       </section>
       <section class="section-7">
-        <div class="flex">
+        <div class="flex flex-col">
           <div>
             <span>an unique marketing template</span>
             <p>
@@ -376,24 +258,24 @@
             <button>Meet the team</button>
           </div>
           <div>
-            <ul>
+            <ul class="flex flex-row">
               <li>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-7/sec-7_img-1.png" alt="" />
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-7/sec-7_img-2.png" alt="" />
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-7/sec-7_img-3.png" alt="" />
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-7/sec-7_img-4.png" alt="" />
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-7/sec-7_img-5.png" alt="" />
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./assets/images/sec-7/sec-7_img-6.png" alt="" />
               </li>
             </ul>
           </div>
@@ -405,7 +287,7 @@
         <div class="flex">
           <div>
             <div>
-              <img src="" alt="" />
+              <img src="./assets/images/sec-8/sec-8_img-1.png" alt="photo" />
               <span>DESIGN</span>
               <h3>Best Blogs To Follow About Web Design</h3>
               <p>
@@ -414,7 +296,7 @@
               </p>
             </div>
             <div>
-              <img src="" alt="" />
+              <img src="./assets/images/sec-8/sec-8_img-2.png" alt="photo" />
               <span>TUTORIAL</span>
               <h3>5 Great Web Design Resources</h3>
               <p>
@@ -431,13 +313,16 @@
       </section>
     </div>
   </main>
+  <v-footer />
 </template>
 
 <script>
 import VHeader from "./components/Header.vue";
+import VFooter from "./components/Footer.vue";
+import VForm from "./components/Form.vue";
 
 export default {
   name: "App",
-  components: { VHeader },
+  components: { VHeader, VFooter, VForm },
 };
 </script>
