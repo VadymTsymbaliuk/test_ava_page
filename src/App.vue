@@ -364,6 +364,71 @@
           </button>
         </div>
       </section>
+      <section class="section-7">
+        <div class="flex">
+          <div>
+            <span>an unique marketing template</span>
+            <p>
+              "Any strategy that gets a message to rise above the clutter is
+              terrific from the advertiser's perspective. Even if it's not much
+              of a secret, it's still a pretty good marketing idea."
+            </p>
+            <button>Meet the team</button>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img src="" alt="" />
+              </li>
+              <li>
+                <img src="" alt="" />
+              </li>
+              <li>
+                <img src="" alt="" />
+              </li>
+              <li>
+                <img src="" alt="" />
+              </li>
+              <li>
+                <img src="" alt="" />
+              </li>
+              <li>
+                <img src="" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-8">
+        <span>FROM OUR BLOG</span>
+        <h2>Recent News & Updates</h2>
+        <div class="flex">
+          <div>
+            <div>
+              <img src="" alt="" />
+              <span>DESIGN</span>
+              <h3>Best Blogs To Follow About Web Design</h3>
+              <p>
+                Et magni et ea unde tempore. Corrupti quia adipisci qui dicta
+                sint.
+              </p>
+            </div>
+            <div>
+              <img src="" alt="" />
+              <span>TUTORIAL</span>
+              <h3>5 Great Web Design Resources</h3>
+              <p>
+                Et magni et ea unde tempore. Corrupti quia adipisci qui dicta
+                sint.
+              </p>
+            </div>
+          </div>
+          <div>
+            <span>MARKETING</span>
+            <h3>What Will Website Be Like In 100 Years?</h3>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 </template>
