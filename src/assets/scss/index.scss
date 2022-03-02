@@ -3,12 +3,18 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
-@import "form";
+@import "./components/form";
+@import "./components/button";
+
 html,body{
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
+  .d-none{
+    display: none;
+  }
 }
+
 h1{
   font-size: 3.5rem;
   font-weight: 400;
@@ -31,3 +37,4 @@ span{
     max-width: 1200px;
   }
 }
+

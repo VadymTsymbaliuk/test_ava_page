@@ -1,0 +1,22 @@
+form {
+
+  label {
+    top: 15%;
+    left: 10%;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  input:focus ~ label, input:valid ~ label, textarea:focus ~ label, textarea:valid ~ label{
+    top: -10px;
+    left: 60px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #BDBDBD;
+    background-color: #fff;
+  }
+  input:invalid ~ p, textarea:invalid ~ p{
+    display: block;
+  }
+
+}

@@ -12,11 +12,7 @@
           <a href="">Our Team</a>
           <a href="">Contact Us</a>
         </div>
-        <div class="button-container">
-          <button class="px-4 py-2 text-blue-100 bg-blue-800 rounded-full">
-            Purchase template
-          </button>
-        </div>
+        <Button text="Purchase template" class="text-blue-100 bg-blue-800" />
         <div class="flex lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,8 +35,10 @@
 </template>
 
 <script>
+import Button from "./Button.vue";
 export default {
   name: "VHeader",
+  components: { Button },
 };
 </script>
 

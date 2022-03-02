@@ -16,11 +16,7 @@
               <p class="font-bold">Samantha Norton</p>
               <img src="./assets/images/stars.png" />
             </div>
-            <div class="pb-2">
-              <button class="bg-orange-500 px-4 py-2 rounded-full">
-                Get started now
-              </button>
-            </div>
+            <Button text=" Get started now" class="bg-orange-500 pb-2" />
           </div>
           <div>
             <img src="./assets/images/sec-1.png" alt="" />
@@ -57,19 +53,20 @@
             </p>
             <div class="flex flex-row">
               <div>
-                <img src="./assets/images/sec-3/sec-3_img-1.svg" alt="#" />
+                <img src="./assets/images/sec-3/sec-3_img-1.svg" alt="img" />
                 <h3>Customer Support</h3>
                 <p>Make every detail perfect & limit the number of details.</p>
-                <button>Read more</button>
+                <Button text="Read more" class="text-blue-100 bg-blue-800" />
               </div>
               <div>
-                <img src="./assets/images/sec-3/sec-3_img-2.svg" alt="#" />
+                <img src="./assets/images/sec-3/sec-3_img-2.svg" alt="img" />
                 <h3>Email marketing</h3>
                 <p>Make every detail perfect & limit the number of details.</p>
               </div>
             </div>
           </div>
           <div>
+            <img src="./assets/images/sec-3/sec-3_img-3.png" alt="img" />
             <h3>Get in touch of the world</h3>
             <p>
               Your work is going to fill a large part of your life, and the only
@@ -82,12 +79,12 @@
       <section class="section-4">
         <div class="flex">
           <div>
-            <img src="" alt="" />
+            <img src="./assets/images/sec-4/sec-4_img.png" alt="img" />
           </div>
           <div>
             <h2>See why we are trusted the world over</h2>
             <p>See why we are trusted the world over</p>
-            <div>
+            <div class="flex flex-col">
               <select>
                 <option>Do you provide customer support?</option>
                 <option>How much traffic can the hosting handle?</option>
@@ -139,7 +136,7 @@
               <li>Questions & Answers</li>
               <li>Dedicated account manager</li>
             </ul>
-            <button>Get Ticket</button>
+            <Button text="Get Ticket" class="text-blue-100 bg-blue-800" />
           </div>
         </div>
       </section>
@@ -255,7 +252,7 @@
               terrific from the advertiser's perspective. Even if it's not much
               of a secret, it's still a pretty good marketing idea."
             </p>
-            <button>Meet the team</button>
+            <Button text="Meet the team" class="text-blue-100 bg-blue-800" />
           </div>
           <div>
             <ul class="flex flex-row">
@@ -320,9 +317,10 @@
 import VHeader from "./components/Header.vue";
 import VFooter from "./components/Footer.vue";
 import VForm from "./components/Form.vue";
+import Button from "./components/Button.vue";
 
 export default {
   name: "App",
-  components: { VHeader, VFooter, VForm },
+  components: { Button, VHeader, VFooter, VForm },
 };
 </script>
