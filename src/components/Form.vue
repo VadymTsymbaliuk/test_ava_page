@@ -1,5 +1,10 @@
 <template>
-  <div>
+  <div class="py-10 px-8">
+    <h3 class="mb-6">Get in touch of the world</h3>
+    <p class="mb-4">
+      Your work is going to fill a large part of your life, and the only way to
+      be truly satisfied.
+    </p>
     <form class="w-full max-w-lg">
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 relative">
@@ -18,7 +23,7 @@
         </div>
         <div class="w-full md:w-1/2 px-3 relative">
           <input
-            class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+            class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
             id="grid-last-name"
             type="email"
             required
@@ -45,7 +50,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-wrap -mx-3 mb-2">
+      <div class="flex flex-wrap -mx-3 mb-8">
         <div class="w-full px-3 mb-6 md:mb-0 relative">
           <textarea
             class="appearance-none block w-full bg-gray-200 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"

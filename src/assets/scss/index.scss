@@ -30,12 +30,18 @@ h3{
 span{
   font-size: 0.7rem;
 }
+.b-radius{
+  border-radius: 15px;
+}
 
 .container {
   margin: 0 auto;
   section {
     max-width: 1200px;
     margin-bottom: 100px;
+  }
+  .section-3{
+    padding-bottom: 100px;
   }
 }
 

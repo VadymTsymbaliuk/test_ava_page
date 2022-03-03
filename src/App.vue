@@ -82,13 +82,8 @@
               </div>
             </div>
           </div>
-          <div class="flex-1">
+          <div class="flex-1 text-center shadow-xl b-radius">
             <img src="./assets/images/sec-3/sec-3_img-3.png" alt="img" />
-            <h3>Get in touch of the world</h3>
-            <p>
-              Your work is going to fill a large part of your life, and the only
-              way to be truly satisfied.
-            </p>
             <v-form />
           </div>
         </div>
