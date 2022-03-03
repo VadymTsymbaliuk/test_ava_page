@@ -24,48 +24,65 @@
         </div>
       </section>
       <section class="section-2">
-        <div class="text-center">
-          <span class="text-blue-600">Event Technology</span>
-          <h2>
-            The solution that <br />
-            your business can rely on
-          </h2>
-          <p>
-            Your work is going to fill a large part of your life, and the only
-            way to be truly satisfied is to do what you believe is great work.
-            And the only way to do great work is to love what you do.
-          </p>
-        </div>
-        <div>
-          <img src="./assets/images/sec-2.png" alt="" />
+        <div class="flex flex-col place-items-center">
+          <div class="text-center mb-16 w-1/2">
+            <span class="text-blue-600">Event Technology</span>
+            <h2 class="mb-10">
+              The solution that <br />
+              your business can rely on
+            </h2>
+            <p>
+              Your work is going to fill a large part of your life, and the only
+              way to be truly satisfied is to do what you believe is great work.
+              And the only way to do great work is to love what you do.
+            </p>
+          </div>
+          <div class="text-center relative">
+            <img src="./assets/images/sec-2.png" alt="" />
+            <p class="uppercase absolute bottom-5 left-0 right-0">
+              more about us
+            </p>
+          </div>
         </div>
       </section>
       <section class="section-3">
         <div class="flex">
-          <div>
-            <h2>
+          <div class="flex-1 mr-16">
+            <h2 class="mb-10">
               Experience design and intelligent marketing for growing brands
             </h2>
-            <p>
+            <p class="mb-4">
               The first rule of any technology used in a business is that
               automation applied to an efficient operation will magnify the
               efficiency.
             </p>
             <div class="flex flex-row">
               <div>
-                <img src="./assets/images/sec-3/sec-3_img-1.svg" alt="img" />
-                <h3>Customer Support</h3>
-                <p>Make every detail perfect & limit the number of details.</p>
+                <img
+                  src="./assets/images/sec-3/sec-3_img-1.svg"
+                  alt="img"
+                  class="mb-8"
+                />
+                <h3 class="mb-4">Customer Support</h3>
+                <p class="mb-8">
+                  Make every detail perfect & limit the number of details.
+                </p>
                 <Button text="Read more" class="text-blue-100 bg-blue-800" />
               </div>
               <div>
-                <img src="./assets/images/sec-3/sec-3_img-2.svg" alt="img" />
-                <h3>Email marketing</h3>
-                <p>Make every detail perfect & limit the number of details.</p>
+                <img
+                  src="./assets/images/sec-3/sec-3_img-2.svg"
+                  alt="img"
+                  class="mb-8"
+                />
+                <h3 class="mb-4">Email marketing</h3>
+                <p class="mb-8">
+                  Make every detail perfect & limit the number of details.
+                </p>
               </div>
             </div>
           </div>
-          <div>
+          <div class="flex-1">
             <img src="./assets/images/sec-3/sec-3_img-3.png" alt="img" />
             <h3>Get in touch of the world</h3>
             <p>
@@ -78,13 +95,13 @@
       </section>
       <section class="section-4">
         <div class="flex">
-          <div>
+          <div class="flex-1 mr-16">
             <img src="./assets/images/sec-4/sec-4_img.png" alt="img" />
           </div>
-          <div>
+          <div class="flex-1">
             <h2>See why we are trusted the world over</h2>
             <p>See why we are trusted the world over</p>
-            <div class="flex flex-col">
+            <div class="flex flex-col border-gray-300">
               <select>
                 <option>Do you provide customer support?</option>
                 <option>How much traffic can the hosting handle?</option>
