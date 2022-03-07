@@ -32,7 +32,7 @@ h4{
   font-weight: 400;
 }
 span{
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 400;
 }
 .b-radius{
@@ -74,6 +74,22 @@ span{
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+    }
+  }
+}
+footer{
+  .container{
+    section{
+      margin-bottom: 0;
+      .social{
+        a{
+          height: 50px;
+          width: 50px;
+          display: flex;
+          justify-content: center;
+          color: white;
+        }
+      }
     }
   }
 }

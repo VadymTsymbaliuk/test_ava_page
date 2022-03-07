@@ -390,7 +390,7 @@
 
 <script>
 import VHeader from "./components/Header.vue";
-import VFooter from "./components/Footer.vue";
+import VFooter from "./components/VFooter.vue";
 import VForm from "./components/VForm.vue";
 import VButton from "./components/VButton.vue";
 
