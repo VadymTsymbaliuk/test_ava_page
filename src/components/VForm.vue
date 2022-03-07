@@ -66,16 +66,16 @@
           </p>
         </div>
       </div>
-      <Button text="Read more" class="text-blue-100 bg-blue-800 w-full" />
+      <v-button text="Read more" class="text-blue-100 bg-blue-800 w-full" />
     </form>
   </div>
 </template>
 
 <script>
-import Button from "./Button.vue";
+import VButton from "./VButton.vue";
 export default {
-  name: "Form",
-  components: { Button },
+  name: "VForm",
+  components: { VButton },
 };
 </script>
 

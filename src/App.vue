@@ -3,8 +3,8 @@
   <main>
     <div class="container">
       <section class="section-1">
-        <div class="flex">
-          <div class="pb-2">
+        <div class="flex flex-row">
+          <div class="pb-2 basis-1/2">
             <h1>Digital Marketing. Creative Design.</h1>
             <p>
               "Your work is going to fill a large part of your life, and the
@@ -16,9 +16,9 @@
               <p class="font-bold">Samantha Norton</p>
               <img src="./assets/images/stars.png" />
             </div>
-            <Button text=" Get started now" class="bg-orange-500 pb-2" />
+            <v-button text=" Get started now" class="bg-orange-500 pb-2" />
           </div>
-          <div>
+          <div class="basis-1/2">
             <img src="./assets/images/sec-1.png" alt="" />
           </div>
         </div>
@@ -46,8 +46,8 @@
         </div>
       </section>
       <section class="section-3">
-        <div class="flex">
-          <div class="flex-1 mr-16">
+        <div class="flex flex-row">
+          <div class="basis-1/2 mr-16">
             <h2 class="mb-10">
               Experience design and intelligent marketing for growing brands
             </h2>
@@ -67,7 +67,7 @@
                 <p class="mb-8">
                   Make every detail perfect & limit the number of details.
                 </p>
-                <Button text="Read more" class="text-blue-100 bg-blue-800" />
+                <v-button text="Read more" class="text-blue-100 bg-blue-800" />
               </div>
               <div>
                 <img
@@ -82,18 +82,18 @@
               </div>
             </div>
           </div>
-          <div class="flex-1 text-center shadow-xl b-radius">
+          <div class="basis-1/2 text-center shadow-xl b-radius">
             <img src="./assets/images/sec-3/sec-3_img-3.png" alt="img" />
             <v-form />
           </div>
         </div>
       </section>
       <section class="section-4">
-        <div class="flex">
-          <div class="flex-1 mr-16">
+        <div class="flex flex-row">
+          <div class="basis-1/2 mr-16">
             <img src="./assets/images/sec-4/sec-4_img.png" alt="img" />
           </div>
-          <div class="flex-1">
+          <div class="basis-1/2">
             <h2>See why we are trusted the world over</h2>
             <p>See why we are trusted the world over</p>
             <div class="flex flex-col border-gray-300">
@@ -126,29 +126,65 @@
         </div>
       </section>
       <section class="section-5">
-        <div class="flex">
-          <div>
-            <h2>Marketing and digital products that grow businesses!</h2>
-            <p>
+        <div class="flex flex-row">
+          <div class="basis-1/2 mr-16 flex flex-col justify-center">
+            <h2 class="mb-8">
+              Marketing and digital products that grow businesses!
+            </h2>
+            <p class="text-sm mb-8">
               The first rule of any technology used in a business is that
               automation applied to an efficient operation will magnify the
               efficiency.
             </p>
-            <div>stats</div>
+            <div>
+              <div>
+                <div class="flex flex-row justify-between">
+                  <h4 class="block">Research</h4>
+                  <p class="block">85%</p>
+                </div>
+                <div class="w-full bg-gray-200 h-1 mb-6">
+                  <div class="bg-green-500 h-1" style="width: 85%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex flex-row justify-between">
+                  <h4 class="block">Education</h4>
+                  <p class="block">62%</p>
+                </div>
+                <div class="w-full bg-gray-200 h-1 mb-6">
+                  <div class="bg-blue-400 h-1" style="width: 62%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex flex-row justify-between">
+                  <h4 class="block">Strategy Development</h4>
+                  <p class="block">72%</p>
+                </div>
+                <div class="w-full bg-gray-200 h-1 mb-6">
+                  <div class="bg-yellow-500 h-1" style="width: 72%"></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>Professional ticket</h3>
-            <span>$45.00</span>
-            <p>Per month</p>
-            <ul>
-              <li>Meet and Greet with Speakers</li>
-              <li>Video Facilities</li>
-              <li>Speaker Facilities</li>
-              <li>Questions & Answers</li>
-              <li>Questions & Answers</li>
-              <li>Dedicated account manager</li>
-            </ul>
-            <Button text="Get Ticket" class="text-blue-100 bg-blue-800" />
+          <div class="basis-1/2 text-center shadow-xl b-radius overflow-hidden">
+            <div class="prof-bg flex justify-center">
+              <h3>Professional ticket</h3>
+            </div>
+            <div class="prof-skills p-4">
+              <h2 class="pb-2">$45.00</h2>
+              <p class="pb-2">Per month</p>
+              <div class="w-3/4 text-left mx-auto mb-8">
+                <ul class="text-xs">
+                  <li class="pb-2"><p>Meet and Greet with Speakers</p></li>
+                  <li class="pb-2"><p>Video Facilities</p></li>
+                  <li class="pb-2"><p>Speaker Facilities</p></li>
+                  <li class="pb-2"><p>Questions & Answers</p></li>
+                  <li class="pb-2"><p>Questions & Answers</p></li>
+                  <li class="pb-2"><p>Dedicated account manager</p></li>
+                </ul>
+              </div>
+              <v-button text="Get Ticket" class="text-blue-100 bg-blue-800" />
+            </div>
           </div>
         </div>
       </section>
@@ -264,7 +300,7 @@
               terrific from the advertiser's perspective. Even if it's not much
               of a secret, it's still a pretty good marketing idea."
             </p>
-            <Button text="Meet the team" class="text-blue-100 bg-blue-800" />
+            <v-button text="Meet the team" class="text-blue-100 bg-blue-800" />
           </div>
           <div>
             <ul class="flex flex-row">
@@ -328,11 +364,11 @@
 <script>
 import VHeader from "./components/Header.vue";
 import VFooter from "./components/Footer.vue";
-import VForm from "./components/Form.vue";
-import Button from "./components/Button.vue";
+import VForm from "./components/VForm.vue";
+import VButton from "./components/VButton.vue";
 
 export default {
   name: "App",
-  components: { Button, VHeader, VFooter, VForm },
+  components: { VButton, VHeader, VFooter, VForm },
 };
 </script>

@@ -12,7 +12,7 @@
           <a href="">Our Team</a>
           <a href="">Contact Us</a>
         </div>
-        <Button text="Purchase template" class="text-blue-100 bg-blue-800" />
+        <v-button text="Purchase template" class="text-blue-100 bg-blue-800" />
         <div class="flex lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -35,10 +35,10 @@
 </template>
 
 <script>
-import Button from "./Button.vue";
+import VButton from "./VButton.vue";
 export default {
   name: "VHeader",
-  components: { Button },
+  components: { VButton },
 };
 </script>
 
