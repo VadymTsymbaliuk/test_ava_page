@@ -33,6 +33,7 @@ h4{
 }
 span{
   font-size: 0.7rem;
+  font-weight: 400;
 }
 .b-radius{
   border-radius: 15px;
@@ -56,6 +57,23 @@ span{
       background-repeat: no-repeat;
       align-items: center;
       color: white;
+    }
+  }
+  .section-7{
+    .triangle-bg{
+      min-height: 400px;
+      background-image: url('../images/sec-7/sec-7_bg-im.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  .section-8{
+    .marketing{
+      background-image: url('../images/sec-8/sec-8_img-3.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   }
 }
