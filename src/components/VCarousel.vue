@@ -40,7 +40,7 @@
         varius enim in eros elementum tristique. "
       </p>
       <img
-        src="../assets/images/sec-6/sec-6_img-1.png"
+        src="../assets/images/sec-6/sec-6_img-3.png"
         alt="img-1"
         class="pb-4"
       />
@@ -72,7 +72,7 @@
         varius enim in eros elementum tristique. "
       </p>
       <img
-        src="../assets/images/sec-6/sec-6_img-1.png"
+        src="../assets/images/sec-6/sec-6_img-2.png"
         alt="img-1"
         class="pb-4"
       />
@@ -88,7 +88,7 @@
         varius enim in eros elementum tristique. "
       </p>
       <img
-        src="../assets/images/sec-6/sec-6_img-1.png"
+        src="../assets/images/sec-6/sec-6_img-3.png"
         alt="img-1"
         class="pb-4"
       />
@@ -107,6 +107,7 @@ export default {
   mounted() {
     $(".slider").slick({
       nextArrow: '<button type="button" class="slick-next"></button>',
+      prevArrow: false,
       slidesToShow: 3,
       slidesToScroll: 1,
       responsive: [
@@ -134,8 +135,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.slider img {
-  display: initial;
-}
-</style>
+<style scoped></style>

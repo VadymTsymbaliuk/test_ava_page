@@ -5,7 +5,7 @@
       Your work is going to fill a large part of your life, and the only way to
       be truly satisfied.
     </p>
-    <form class="w-full max-w-lg">
+    <form class="w-full max-w-lg mx-auto">
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0 relative">
           <input

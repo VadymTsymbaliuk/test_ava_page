@@ -6,89 +6,116 @@
 @import "./components/form";
 @import "./components/button";
 
-html,body{
+html, body {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  .d-none{
+
+  .d-none {
     display: none;
   }
 }
 
-h1{
+h1 {
   font-size: 3.5rem;
   font-weight: 400;
 }
+
 h2 {
   font-size: 2.5rem;
   font-weight: 400;
 }
-h3{
+
+h3 {
   font-size: 1.8rem;
   font-weight: 400;
 }
-h4{
+
+h4 {
   font-size: 1.25rem;
   font-weight: 400;
 }
-span{
+
+span {
   font-size: 0.75rem;
   font-weight: 400;
 }
-.b-radius{
+
+.b-radius {
   border-radius: 15px;
 }
 
-.container {
-  margin: 0 auto;
-  section {
-    max-width: 1200px;
-    margin-bottom: 100px;
-  }
-  .section-3{
-    padding-bottom: 100px;
-  }
-  .section-5{
+header {
+  .container {
+    margin: 0 auto 50px;
 
-    .prof-bg{
-      height: 200px;
-      background-image: url('../images/sec-5/sec-5_img.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      align-items: center;
-      color: white;
-    }
-  }
-  .section-7{
-    .triangle-bg{
-      min-height: 400px;
-      background-image: url('../images/sec-7/sec-7_bg-im.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
-  .section-8{
-    .marketing{
-      background-image: url('../images/sec-8/sec-8_img-3.png');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
   }
 }
-footer{
-  .container{
-    section{
-      margin-bottom: 0;
-      .social{
-        a{
-          height: 50px;
-          width: 50px;
-          display: flex;
-          justify-content: center;
-          color: white;
-        }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.section-3 {
+  padding-bottom: 100px;
+}
+
+.section-5 {
+
+  .prof-bg {
+    height: 200px;
+    background-image: url('../images/sec-5/sec-5_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: white;
+  }
+}
+
+.section-6 {
+  .slider img {
+    display: initial;
+  }
+
+  .slick-next:before {
+    color: black;
+  }
+}
+
+.section-7 {
+  .triangle-bg {
+    min-height: 400px;
+    background-image: url('../images/sec-7/sec-7_bg-im.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.section-8 {
+  .marketing {
+    background-image: url('../images/sec-8/sec-8_img-3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+
+footer {
+
+  .container {
+    margin-bottom: 0;
+
+    .social {
+      a {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        color: white;
       }
     }
   }
